@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main2.css">
+  <title>Cinela</title>
+</head>
+
+<body class="#212121 grey darken-4">
+  <div class="row black title">
+    <!--Logo-->
+    <div class="col s12 m12">
+
+    </div>
+    <!--Menu-->
+    <nav class="black">
+      <div class="nav-wrapper">
+        <img class="logo-cinela" src="../assets/images/logo-grande.jpg" alt="logo-grande">
+        <a href="#" data-activates="mobile-demo" class="button-collapse">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a class="head-link" href="../index.html">Inicio</a>
+          </li>
+          <li>
+            <a class="head-link" href="peliculas.html">Películas</a>
+          </li>
+          <li>
+            <a class="head-link" href="profile.html">Suscribirse</a>
+          </li>
+          <li>
+            <a class="head-link" href="#contactus">Contáctanos</a>
+          </li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li>
+            <a class="head-link" href="#home">Inicio</a>
+          </li>
+          <li>
+            <a class="head-link" href="#movies">Películas</a>
+          </li>
+          <li>
+            <a class="head-link">Suscribirse</a>
+          </li>
+          <li>
+            <a class="head-link" href="#contactus">Contáctanos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="carousel hide-on-med-and-up">
+    <a class="carousel-item" href="#one!">
+      <img src="http://static1.espectadores.net/wp-content/uploads/2015/07/peliculas-de-accion-600x889.jpg">
+    </a>
+    <a class="carousel-item" href="#two!">
+      <img src="http://peliculasm.tv/archivos/img/4407.jpg">
+    </a>
+    <a class="carousel-item" href="#three!">
+      <img src="http://www.mubis.es/media/articles/6521/63980/trailer-y-nuevo-poster-de-la-pelicula-divergente-original.jpg">
+    </a>
+    <a class="carousel-item" href="#four!">
+      <img src="http://www.moviexclusive.com/review/thelostbladesman/poster.jpg">
+    </a>
+    <a class="carousel-item" href="#five!">
+      <img src="https://i0.wp.com/hipertextual.com/files/2016/10/avatar-poster-01.jpg?resize=600%2C886&ssl=1">
+    </a>
+  </div>
+
+
+  <div class="content-all hide-on-small-only">
+    <div class="content-carrousel">
+      <figure>
+        <img src="http://static1.espectadores.net/wp-content/uploads/2015/07/peliculas-de-accion-600x889.jpg">
+      </figure>
+      <figure>
+        <img src="http://peliculasm.tv/archivos/img/4407.jpg">
+      </figure>
+      <figure>
+        <img src="https://i.pinimg.com/564x/86/55/80/865580314a24d809e6fb0f12ce72e738.jpg">
+      </figure>
+      <figure>
+        <img src="https://ugc.kn3.net/i/origin/http://i.imgur.com/ctbBQ.jpg">
+      </figure>
+      <figure>
+        <img src="http://static4.espectadores.net/wp-content/uploads/2012/08/las-mejores-peliculas-de-accion-mision-imposible-4-protocolo-fantasma-600x888.jpg">
+      </figure>
+      <figure>
+        <img src="http://www.mubis.es/media/articles/6521/63980/trailer-y-nuevo-poster-de-la-pelicula-divergente-original.jpg">
+      </figure>
+      <figure>
+        <img src="http://www.moviexclusive.com/review/thelostbladesman/poster.jpg">
+      </figure>
+      <figure>
+        <img src="https://static.kino.de/wp-content/uploads/2015/08/black-swan-2010-filmplakat-rcm590x842u.jpg">
+      </figure>
+      <figure>
+        <img src="https://i0.wp.com/hipertextual.com/files/2016/10/avatar-poster-01.jpg?resize=600%2C886&ssl=1">
+      </figure>
+      <figure>
+        <img src="https://mediafiles.cineplex.com/Central/Film/Posters/24763_320_470.jpg">
+      </figure>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h3 class="center-align  search">Search For Any Movie</h3>
+      <br>
+      <br>
+      <form id="searchForm">
+        <input type="search" class="form-control " id="searchText" name="" placeholder="Search Movie...">
+      </form>
+    </div>
+  </div>
+  <div class="container row">
+    <div id="movies" class="col m12"></div>
+  </div>
+  <div class="container modalcont row">
+    <div id="movies-modal" class="col m8">
+      <div id="modal1" class="modal ">
+        <div class="modal-content #212121 grey darken-4">
+          <h4></h4>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <strong>Genero:</strong>
+              <span id="peli-genero"></span>
+            </li>
+            <li class="list-group-item">
+              <strong>Released:</strong>
+              <span id="peli-Released"></span>
+            </li>
+            <li class="list-group-item">
+              <strong>Rated:</strong>
+              <span id="peli-Rated"></span>
+            </li>
+            <li class="list-group-item">
+              <strong>IMDB Rating:</strong>
+              <span id="peli-Rating"></span>
+            </li>
+            <li class="list-group-item">
+              <strong>Director:</strong>
+              <span id="peli-Director"></span>
+            </li>
+            <li class="list-group-item">
+              <strong>Writer:</strong>
+              <span id="peli-Writer"></span>
+            </li>
+            <li class="list-group-item">
+              <strong>Year:</strong>
+              <span id="peli-Year"></span>
+            </li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Salir</a>
+          <a href="#!" class="modal-action  waves-effect waves-green btn-flat firebase" id="btnAdd">Agregar a Favoritos</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="page-footer black">
+    <div class="footer-copyright">
+      <div class="container center-align">
+        © 2014 Copyright Text
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+  <script src="../js/modal.js"></script>
+  <script src="../js/carousel.js"></script>
+  <script src="../js/login.js"></script>
+  <script src="../js/filtro.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+  <!-- Iconos  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Fuentes  -->
+  <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+
+  <!-- <link rel="shortcut icon" href="images/favicon (5).ico" type="image/x-icon"> -->
+  <!-- <link rel="icon" href="images/favicon (5).ico" type="image/x-icon"> -->
+
+  <!--CSS-->
+  <link href="css/main.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="vendors/materialize/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+  <title>Cine-la</title>
+</head>
+
+<body>
+  <!--Header-->
+  <div class="row black title">
+    <!--Logo y Menu-->
+    <nav class="row black nav-index">
+      <div class="col s6 m6 l6">
+        <a href="#">
+          <img src="assets/images/logo-grande.jpg" alt="logo-grande" class="logo-cinela">
+        </a> 
+      </div>
+      <div class="col s6 m6 l6 nav-wrapper">
+        <a href="#" data-activates="mobile-demo" class="button-collapse">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a class="head-link" href="#home">Inicio</a>
+          </li>
+          <li>
+            <a class="head-link" href="views/peliculas.html">Películas</a>
+          </li>
+          <li>
+            <a class="head-link" href="views/profile.html">Suscribirse</a>
+          </li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li>
+            <a class="head-link" href="#home">Inicio</a>
+          </li>
+          <li>
+            <a class="head-link" href="#movies">Películas</a>
+          </li>
+          <li>
+            <a class="head-link" href="#sucription">Suscribirse</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <!--Slider--><!--Modificar con data del api-->
+  <div class="slider">
+    <ul class="slides">
+      <li>
+        <img class="size-carousel" src="https://www.alosanluis.com/wp-content/uploads/2017/11/portada.jpg">
+        <div class="caption center-align">
+          <h3>Coco</h3>
+          <h5 class="light grey-text text-lighten-3">"Coco", la cinta animada inspirada en el Día de los Muertos de México, se impuso en la taquilla de Estados Unidos y Canadá a películas de superhéroes y Navidad</h5>
+        </div>
+      </li>
+      <li>
+        <img class="size-carousel" src="http://www.lascosasquenoshacenfelices.com/wp-content/uploads/2017/12/EL-GRAN-SHOWMAN.jpg">
+        <div class="caption left-align">
+          <h3>El Gran Showman</h3>
+          <h5 class="light grey-text text-lighten-3">El gran showman es un musical que celebra el nacimiento del show business y cuenta la historia de P.T. Barnum, un visionario showman y empresario circense que surgió de la nada para crear un espectáculo que se convirtió en una sensación mundial y que fue conocido como "El mayor espectáculo en la Tierra"</h5>
+        </div>
+      </li>
+      <li>
+        <img class="size-carousel" src="https://2.bp.blogspot.com/-_LidBal7GGY/VroZBydUcDI/AAAAAAAACZ4/likex7EfyBU/s1600/el-gran-gatsby%252C-myrtle-wilson%252C-daisy-buchanan%252C-jay-gatsby%252C-jordan-baker%252C-nick-carraway-174825.jpg">
+        <div class="caption right-align">
+          <h3>El Gran Gatsby</h3>
+          <h5 class="light grey-text text-lighten-3">"Jay Gatsby, un hombre misterioso e inmensamente rico, al que todos consideran un advenedizo, lo que no impide que acudan a sus fastuosas fiestas en su gran mansión de Long Island."</h5>
+        </div>
+      </li>
+      <li>
+        <img class="size-carousel" src="http://www.eliberico.com/wp-content/uploads/2014/07/Transformers-4-Age-of-Extinction-Optimus-Prime-Poster.jpg">
+        <div class="caption center-align">
+          <h3>Transformers 4</h3>
+          <h5 class="light grey-text text-lighten-3">Un mecánico e inventor llamado Cade Yeager (Mark Wahlberg), intenta reparar un Marmon semi-tráiler, cuando descubre que en realidad se trata de un Transformer. Pero no es un Transformer cualquiera, sino el líder de los Autobots, Optimus Prime, lo que acarreará grandes consecuencias para él y su familia.</h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <!--Fin Slider-->
+  <br>
+  <br>
+  <!--Home---Jalar con data.js-->
+  <div id="home" class="container section scrollspy">
+    <h6 class="center-align title-top">Más Populares</h6>
+    <!--Cards Populares-->
+    <div class="row">
+      <!--card01-->
+      <div class="col s12 m4">
+        <div class="card large z-depth-2">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="assets/images/portada01.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">EL PASAJERO
+              <i class="material-icons right">more_vert</i>
+            </span>
+            <p>
+              <a href="#" class="indigo-text text-darken-4">+ 14 años</a>
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">EL PASAJERO
+              <i class="material-icons right">close</i>
+            </span>
+            <p>Durante su trayecto habitual de vuelta a casa en tren, un hombre de negocios, de pronto entabla conversación
+              con una misteriosa pasajera.Pronto el hombre se verá envuelto en una conspiración criminal que amenaza con
+              poner en peligro tanto su vida como la de sus seres más cercanos.</p>
+          </div>
+        </div>
+      </div>
+      <!--card02-->
+      <div class="col s12 m4">
+        <div class="card large z-depth-2">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="assets/images/portada02.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">JUMANJI
+              <i class="material-icons right">more_vert</i>
+            </span>
+            <p>
+              <a href="#" class="indigo-text text-darken-4">Apta para todos</a>
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">JUMANJI
+              <i class="material-icons right">close</i>
+            </span>
+            <p>Remake de la película homónima de 1995 adaptado a la época actual, en donde cuatro adolescentes se introducen
+              en un nueva aventura a partir de "Jumanji", un videojuego que sirve como un portal a través del espacio-tiempo.
+              Absorbidos por el mundo de Jumanji, este juego no se puede abandonar hasta que acaba la partida.</p>
+          </div>
+        </div>
+      </div>
+      <!--card03-->
+      <div class="col s12 m4 hoverable">
+        <div class="card large z-depth-2 hoverable">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="assets/images/portada03.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">EL GRAN SHOWMAN
+              <i class="material-icons right">more_vert</i>
+            </span>
+            <p>
+              <a href="#" class="indigo-text text-darken-4">+ 14 años</a>
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">EL GRAN SHOWMAN
+              <i class="material-icons right">close</i>
+            </span>
+            <p>Es un original musical que celebra el origen del mundo del espectáculo y la capacidad de asombro que sentimos
+              cuando los sueños cobran vida. Inspirada en la ambición e imaginación de P.T. Barnum, “El Gran Showman” cuenta
+              la historia de un visionario que surgió de la nada para crear un espectáculo fascinante, que se convirtió en
+              un éxito mundial.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <!--card04-->
+      <div class="col s12 m4">
+        <div class="card large z-depth-2">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="assets/images/portada04.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">EL GRAN LEÓN
+              <i class="material-icons right">more_vert</i>
+            </span>
+            <p>
+              <a href="#" class="indigo-text text-darken-4">Apta para todos</a>
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">EL GRAN LEÓN
+              <i class="material-icons right">close</i>
+            </span>
+            <p>Ivana Cornejo, es una abogada divorciada y socia de su ex marido Diego en un estudio jurídico. Después de perder
+              su celular recibe una llamada de León Godoy, quien encontró el teléfono y tiene la intención de devolvérselo.
+              En la conversación telefónica se establece una gran empatía y ambos sienten un inmediato interés, por lo que
+              coordinan encontrarse. El “problema” es que León mide 1,36 metros, por lo cual, a partir de ese encuentro,
+              Ivana intenta superar esos centímetros que le faltan al hombre de su vida, enfrentando los prejuicios sociales
+              y los propios.</p>
+          </div>
+        </div>
+      </div>
+      <!--card05-->
+      <div class="col s12 m4">
+        <div class="card large z-depth-2">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="assets/images/portada05.jpg">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">EL REGRESO DEL DEMONIO-3
+              <i class="material-icons right">more_vert</i>
+            </span>
+            <p>
+              <a href="#" class="indigo-text text-darken-4">+ 14 años</a>
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">EL REGRESO DEL DEMONIO-3
+              <i class="material-icons right">close</i>
+            </span>
+            <p>Trish Jenner es ahora madre de un adolescente llamado Darry, en memoria del hermano que Trish perdió 23 años
+              atrás. La mujer tiene la pesadilla recurrente de que su hijo tendrá el mismo destino a manos de “The Creeper”.
+              Pero a diferencia de entonces ahora es rica y poderosa, y tratará de impedirlo. Por su parte Gaylen Brandon
+              es una excéntrica y dotada Médium que lidera una tropa de sargentos, entre ellos Chris Brandon y Davis Tubbs
+              con el fin de detener a la temible criatura de una vez por todas.</p>
+          </div>
+        </div>
+      </div>
+      <!--card06-->
+      <div class="col s12 m4">
+        <div class="card large z-depth-2">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="assets/images/portada06.png">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">COCO
+              <i class="material-icons right">more_vert</i>
+            </span>
+            <p>
+              <a href="#" class="indigo-text text-darken-4">+ 14 años</a>
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">COCO
+              <i class="material-icons right">close</i>
+            </span>
+            <p>A pesar de la incomprensible prohibición de la música desde hace varias generaciones en su familia, Miguel sueña
+              con convertirse en un músico consagrado, como su ídolo Ernesto de la Cruz. Desesperado por probar su talento,
+              Miguel se encuentra en la impresionante y colorida Tierra de los Muertos como resultado de una misteriosa cadena
+              de eventos. En el camino, encuentra al simpático timador Héctor, y juntos se embarcan en una extraordinaria
+              travesía para develar la verdadera razón detrás de la historia familiar de Miguel.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Fin Cards Populares-->
+  </div>
+  <!--Fin Home-->
+  <br>
+  <br>
+  <!--Sección Fans-JAlar con data de la APi-->
+  <div id="movies" class="section scrollspy section-fans">
+    <div class="">
+      <h6 class="movies">Fans de DC</h6>
+    </div>
+  </div>
+      
+      <!--card de películas-->
+
+  <section class="carrusel2">
+    <ul class="carousel">
+      <li class="items main-pos" id="1"><iframe width="560" height="315" src="https://www.youtube.com/embed/hHh5Rs--DAE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+      <li class="items right-pos" id="2">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/R3wDsbkybVw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </li>
+      <li class="items back-pos" id="3">
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/hksOlNvif3A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </li>
+      <li class="items back-pos" id="4"><iframe width="854" height="480" src="https://www.youtube.com/embed/VilLIvqFvME" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+      <li class="items back-pos" id="5">
+        <iframe width="500" height="281" src="https://www.youtube.com/embed/6bkASD4Ihuc?autoplay=1" frameborder="0" allowfullscreen></iframe>
+      </li>
+      <li class="items back-pos" id="6">
+        <iframe width="854" height="480" src="https://www.youtube.com/embed/xixVH-uaNq4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </li>
+      <li class="items left-pos" id="7"><iframe width="560" height="315" src="https://www.youtube.com/embed/xYOpxQ9ooYU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></li>
+    </ul>
+
+  </section>
+  <!--Fin Sección Fans-->
+
+
+  <!--Fin Sección Fans-->
+  
+  <!--FOOTER-->
+  <footer class="section page-footer black center-align">
+    <div class="container">
+      <div class="row">
+        <div class="col s6 m6 l6">
+          <div class="container section scrollspy" id="about-us">
+            <a href="#"><img src="assets/images/logo-grande.jpg" alt="logo-cinela" class="logo-cinela"></a>
+            <p class="row white-text">
+              Plataforma web de búsqueda de películas de todos los tiempos.
+            </p>
+            <h5 class="row white-text footer-text">Hecha por Laboratorians</h5>
+          </div>
+        </div>
+        <div class="col s6 m6 l6 icons-footer">
+          <div class="icons">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=&t=" title="Share on Facebook" target="_blank">
+              <i class="fa fa-facebook"></i>
+            </a> &nbsp; &nbsp;
+            <a href="https://twitter.com/intent/tweet?source=&text=:%20" title="Tweet" target="_blank">
+              <i class="fa fa-twitter"></i>
+            </a> &nbsp; &nbsp;
+            <a href="https://plus.google.com/share?url=" title="Share on Google+" target="_blank">
+              <i class="fa fa-google-plus"></i>
+            </a> &nbsp; &nbsp;
+            <a href="http://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=&source=" title="Share on LinkedIn" target="_blank">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+      <div class="footer-copyright">
+        <p class="container">Cine-La © 2018 Copyright Text</p>
+      </div>
+  </footer>
+  <!--FIN FOOTER-->
+
+  <!--Import jQuery-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <!--Import JS-->
+  <script type="text/javascript" src="vendors/materialize/js/materialize.min.js"></script>
+  <script type="text/javascript" src="vendors/materialize/js/init.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/caruselindex.js"></script>
+</body>
+
+</html>

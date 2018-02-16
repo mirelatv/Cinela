@@ -1,0 +1,149 @@
+#login {
+  height: 100vh;
+  width: 100%;
+  background-image: url('../assets/images/fondo-login.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#btn-google {
+  width: 100%;
+}
+
+footer.page-footer {
+  background-color: #212121;
+}
+
+#profile .button-collapse {
+  margin-top: 25px;
+  left: 90px;
+}
+
+.icons-footer .fa {
+  font-size: 35px;
+  color: white;
+  margin-top: 20%;
+}
+
+.icons-footer .fa:hover {  
+  color: #80cbc4;    
+  -moz-transform: scale(2.2);
+  -webkit-transform: scale(2.2);
+  -o-transform: scale(2.2);
+  -ms-transform: scale(2.2);
+  transform: scale(2.2)
+}
+
+.footer-text {  
+  font-family: 'Cabin', sans-serif;
+}
+
+#portada {
+  background-color: black;
+}
+
+#portada iframe {
+  margin-left: 15%;
+}
+
+.logo-cinela {
+  width: 220px;
+  margin-top: 25px;
+}
+
+.nav-index {
+  height: 100px;
+}
+
+.nav-wrapper ul li {
+  display: inline-block;
+  padding: 0px 35px;
+}
+
+nav ul a:hover {
+  color: #80cbc4;    
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2)
+}
+
+#img-user {
+  border-radius: 100%;
+  width: 70px;
+}
+
+.nav-wrapper ul{
+  margin-top: 2%;
+}
+
+@media (min-width: 992px) {
+
+footer.page-footer {
+  background-color: #212121;
+}
+
+.icons-footer .fa {
+  font-size: 35px;
+  color: white;
+  margin-top: 20%;
+}
+
+.icons-footer .fa:hover {  
+  color: #80cbc4;    
+  -moz-transform: scale(2.2);
+  -webkit-transform: scale(2.2);
+  -o-transform: scale(2.2);
+  -ms-transform: scale(2.2);
+  transform: scale(2.2)
+}
+
+.footer-text {  
+  font-family: 'Cabin', sans-serif;
+}
+
+#portada {
+  background-color: black;
+}
+
+#portada iframe {
+  margin-left: 15%;
+}
+
+.logo-cinela {
+  width: 320px;
+  margin-top: 5px;
+}
+
+.nav-index {
+  height: 100px;
+}
+
+.nav-wrapper ul li {
+  display: inline-block;
+  padding: 0px 35px;
+}
+
+nav ul a:hover {
+  color: #80cbc4;    
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2)
+}
+
+#img-user {
+  border-radius: 100%;
+  width: 70px;
+}
+
+.nav-wrapper ul{
+  margin-top: 2%;
+}
+.btn-sign {
+  width: 100%;
+}
+
+}

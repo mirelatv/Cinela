@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+  <!--CSS-->
+  <link href="../css/profile.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="../vendors/materialize/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="../vendors/plugins/plugin-min.css" type="text/css" rel="stylesheet">
+  <link href="../vendors/plugins/custom-min.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <title>Cinela</title>
+</head>
+
+<body>
+
+  <section id="login">
+    <div>
+      <div class="row">
+        <div class="col s10 offset-s1 m4 offset-m4 l4 offset-l4" style="margin-top:90px">
+          <div class="card-panel z-depth-5 design">
+            <h3 class="center">Conectarse</h3>
+            <div class="row">
+              <form class="col s12 m12">
+                <div class="row ">
+                  <div class="input-field col s12 l12">
+                    <a class="waves-effect waves-light btn btn-large red accent-4 btn-sign" id="btn-google">Google</a>
+                  </div>
+              </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="profile">
+  <!--Header-->
+  <div class="row black title">
+    <!--Logo y Menu-->
+    <nav class="row black nav-index">
+      <div class="col s6 m6 l3">
+        <a href="#">
+          <img src="../assets/images/logo-grande.jpg" alt="logo-grande" class="logo-cinela">
+        </a>
+      </div>
+      <div class="col s3 m6 l9 nav-wrapper">
+        <a href="#" data-activates="mobile-demo" class="button-collapse">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a class="head-link" href="#home">Inicio</a>
+          </li>
+          <li>
+            <a class="head-link" href="#movies">Películas</a>
+          </li>
+          <li>
+            <a class="head-link" href="#sucription">Suscribirse</a>
+          </li>
+          <li>
+            <img id="img-user" src='../assets/images/user.jpg'>
+          </li>
+          <li id="btn-salir">
+              <i class="material-icons">exit_to_app</i>
+          </li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+          <li>
+            <a class="head-link" href="#home">Inicio</a>
+          </li>
+          <li>
+            <a class="head-link" href="#movies">Películas</a>
+          </li>
+          <li>
+            <a class="head-link" href="#sucription">Suscribirse</a>
+          </li>
+          <li>
+            <img id="img-user" src='../assets/images/user.jpg'>
+          </li>
+          <li id="btn-salir">
+              <i class="material-icons">exit_to_app</i>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="section no-pad-bot hide-on-small-only" id="index-banner">
+    <div class="container">
+      <h1 class="text_h center header cd-headline letters type">
+        <span>Lo más</span>
+        <span class="cd-words-wrapper waiting">
+          <b class="is-visible">popular</b>
+          <b>interesante</b>
+        </span>
+      </h1>
+    </div>
+  </div>
+  <div id="portada" class="row">
+    <iframe width="70%" height="420" src="https://www.youtube.com/embed/Q4_ex7a9ZcY?autoplay=0" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="row">
+    <div class="card">
+      <div class="card-title">
+        <h3 class="black-text center-align">Favoritas</h3>
+      </div>
+      <div class="card-content">
+        <!--card02-->
+        <div class="col s12 m3">
+          <div class="card large z-depth-2">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="../assets/images/portada02.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">JUMANJI
+                <i class="material-icons right">more_vert</i>
+              </span>
+              <p>
+                <a href="#" class="indigo-text text-darken-4">Apta para todos</a>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">JUMANJI
+                <i class="material-icons right">close</i>
+              </span>
+              <p>Remake de la película homónima de 1995 adaptado a la época actual, en donde cuatro adolescentes se introducen
+                en un nueva aventura a partir de "Jumanji", un videojuego que sirve como un portal a través del espacio-tiempo.
+                Absorbidos por el mundo de Jumanji, este juego no se puede abandonar hasta que acaba la partida.</p>
+            </div>
+          </div>
+        </div>
+        <!--card03-->
+        <div class="col s12 m3 hoverable">
+          <div class="card large z-depth-2 hoverable">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="../assets/images/portada03.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">EL GRAN SHOWMAN
+                <i class="material-icons right">more_vert</i>
+              </span>
+              <p>
+                <a href="#" class="indigo-text text-darken-4">+ 14 años</a>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">EL GRAN SHOWMAN
+                <i class="material-icons right">close</i>
+              </span>
+              <p>Es un original musical que celebra el origen del mundo del espectáculo y la capacidad de asombro que sentimos
+                cuando los sueños cobran vida. Inspirada en la ambición e imaginación de P.T. Barnum, “El Gran Showman” cuenta
+                la historia de un visionario que surgió de la nada para crear un espectáculo fascinante, que se convirtió
+                en un éxito mundial.</p>
+            </div>
+          </div>
+        </div>
+        <!--card04-->
+        <div class="col s12 m3">
+          <div class="card large z-depth-2">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="../assets/images/portada04.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">EL GRAN LEÓN
+                <i class="material-icons right">more_vert</i>
+              </span>
+              <p>
+                <a href="#" class="indigo-text text-darken-4">Apta para todos</a>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">EL GRAN LEÓN
+                <i class="material-icons right">close</i>
+              </span>
+              <p>Ivana Cornejo, es una abogada divorciada y socia de su ex marido Diego en un estudio jurídico. Después de perder
+                su celular recibe una llamada de León Godoy, quien encontró el teléfono y tiene la intención de devolvérselo.
+                En la conversación telefónica se establece una gran empatía y ambos sienten un inmediato interés, por lo
+                que coordinan encontrarse. El “problema” es que León mide 1,36 metros, por lo cual, a partir de ese encuentro,
+                Ivana intenta superar esos centímetros que le faltan al hombre de su vida, enfrentando los prejuicios sociales
+                y los propios.</p>
+            </div>
+          </div>
+        </div>
+        <!--card05-->
+        <div class="col s12 m3">
+          <div class="card large z-depth-2">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="../assets/images/portada05.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">EL REGRESO DEL DEMONIO-3
+                <i class="material-icons right">more_vert</i>
+              </span>
+              <p>
+                <a href="#" class="indigo-text text-darken-4">+ 14 años</a>
+              </p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">EL REGRESO DEL DEMONIO-3
+                <i class="material-icons right">close</i>
+              </span>
+              <p>Trish Jenner es ahora madre de un adolescente llamado Darry, en memoria del hermano que Trish perdió 23 años
+                atrás. La mujer tiene la pesadilla recurrente de que su hijo tendrá el mismo destino a manos de “The Creeper”.
+                Pero a diferencia de entonces ahora es rica y poderosa, y tratará de impedirlo. Por su parte Gaylen Brandon
+                es una excéntrica y dotada Médium que lidera una tropa de sargentos, entre ellos Chris Brandon y Davis Tubbs
+                con el fin de detener a la temible criatura de una vez por todas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <footer class="page-footer black">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col s6 offset-s4">
+          <a href="https://www.facebook.com/sharer/sharer.php?u=&t=" title="Share on Facebook" target="_blank">
+            <i class="fa fa-facebook" style="font-size: 35px; color:white;"></i>
+          </a> &nbsp; &nbsp;
+          <a href="https://twitter.com/intent/tweet?source=&text=:%20" title="Tweet" target="_blank">
+            <i class="fa fa-twitter" style="font-size: 35px; color:white;"></i>
+          </a> &nbsp; &nbsp;
+          <a href="https://plus.google.com/share?url=" title="Share on Google+" target="_blank">
+            <i class="fa fa-google-plus" style="font-size: 35px; color:white;"></i>
+          </a> &nbsp; &nbsp;
+          <a href="http://www.linkedin.com/shareArticle?mini=true&url=&title=&summary=&source=" title="Share on LinkedIn" target="_blank">
+            <i class="fa fa-linkedin" style="font-size: 35px; color:white;">
+
+
+            </i>
+          </a>
+        </div>
+
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+          © 2018 Copyright Text
+          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+      </div>
+  </footer>
+
+</section>
+
+  <!--Import jQuery-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+  <!--Import JS-->
+  <script type="text/javascript" src="../vendors/materialize/js/materialize.min.js"></script>
+  <script type="text/javascript" src="../vendors/materialize/js/init.js"></script>
+  <script src="../js/login.js"></script>
+  <script src="../js/filtro.js"></script>
+  <script src="../js/data.js"></script>
+  <script src="../vendors/plugins/plugin-min.js"></script>
+  <script src="../vendors/plugins/custom-min.js"></script>
+
+</body>
+
+</html>
